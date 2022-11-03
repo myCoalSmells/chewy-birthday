@@ -1,0 +1,88 @@
+body{
+    font-family: 'Happy Monkey', cursive;    
+    text-align: center;
+    background: linear-gradient(#9ddbff, #96c3f5);
+}
+
+h1, h2, h3, h4, p{
+    color: #513631;
+    text-shadow: 0 0 1px black;
+}
+
+#image{
+    width: 300px;
+    height: 300px;
+    border: 6px solid #9e897b;
+    border-radius: 50%;
+    margin: 5px 0 10px 0;
+}
+
+#age{
+    background: #9e897b;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#date{
+    margin: 0;
+    background: #9e897b;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.message{
+    margin-bottom: 10px;
+}
+
+.hover{
+    margin-top: 0px;
+}
+
+.gift{
+    border: 6px solid #9e897b;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    background-image: url("images/gift-cover.jpeg");
+    background-size: cover;
+}
+
+#gift-one:hover{
+    background-image: url("images/happy.gif");
+}
+
+
+#gift-two:hover{
+    background-image: url("images/hotdog.gif");
+}
+
+#gift-three:hover{
+    background-image: url("images/pee.gif");
+}
+
+#gift-four{
+    height: 200px;
+}
+
+#gift-four:hover{
+    background-image: url("images/cheers.gif");
+}
+
+#footer{
+    margin-top: 40px;
+    font-style:italic;
+    color: #513631;
+}
